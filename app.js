@@ -2,7 +2,7 @@ const apiKey = "c2f784c8c7e04ab3b4d634e280c2519b";
 
 const main = document.querySelector("main");
 const sourceSelector = document.querySelector("#sourceSelector");
-const defaultSource = "the-washington-post";
+const defaultSource = "the-times-of-india";
 
 window.addEventListener("load", async (e) => {
   updateNews();
