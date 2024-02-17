@@ -62,10 +62,10 @@ jobs:
         run: npm install
 
       - name: Build with Next.js
-        run: npm next build
+        run: npm run build
 
-      - name: Static HTML export with Next.js
-        run: npm next export
+      # - name: Static HTML export with Next.js
+      #   run: npm next export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
