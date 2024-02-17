@@ -41,14 +41,14 @@ export function Landing() {
                   Check out my
                 </p>
                 <Link
-                  className="inline-flex h-9 items-center justify-start rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
+                  className="inline-flex h-9 items-center justify-start rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
                   href="https://github.com/saxenanickk"
                 >
                   Github ⚡️
                   <ChevronRightIcon className="w-4 h-4 ml-2 inline-block" />
                 </Link>
                 <Link
-                  className="inline-flex h-9 items-center justify-start rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
+                  className="inline-flex h-9 items-center justify-start rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
                   href="https://saxenanickk.github.io/cv"
                 >
                   CV 📄
@@ -116,26 +116,26 @@ export function Landing() {
   );
 }
 
-function MountainIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
-  );
-}
+// function MountainIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       xmlns="http://www.w3.org/2000/svg"
+//       width="24"
+//       height="24"
+//       viewBox="0 0 24 24"
+//       fill="none"
+//       stroke="currentColor"
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     >
+//       <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+//     </svg>
+//   );
+// }
 
-function ChevronRightIcon(props) {
+function ChevronRightIcon(props: any) {
   return (
     <svg
       {...props}
