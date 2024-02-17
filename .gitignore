@@ -1,27 +1,39 @@
-# Node.js
-node_modules
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Production build
-.next
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
 
-# Editor directories and files
-.vscode
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw*
+# testing
+/coverage
 
-# macOS
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
+*.pem
 
-# Temporary files
-*.log
+# debug
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Dependency directories
-pnpm-debug.log*
-pnpm-lock.yaml
-yarn-error.log
-yarn.lock
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# ide
+.idea
