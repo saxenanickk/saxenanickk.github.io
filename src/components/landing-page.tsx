@@ -49,7 +49,7 @@ export function Landing() {
                 </Link>
                 <Link
                   className="inline-flex h-9 items-center justify-start rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
-                  href="https://saxenanickk.github.io/cv"
+                  href="https://cv.nikhilsaxena.me/"
                 >
                   CV 📄
                   <ChevronRightIcon className="w-4 h-4 ml-2 inline-block" />
