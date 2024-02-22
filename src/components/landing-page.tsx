@@ -44,14 +44,21 @@ export function Landing() {
                   className="inline-flex h-9 items-center justify-start rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
                   href="https://github.com/saxenanickk"
                 >
-                  Github ⚡️
+                  Github 🛠️
                   <ChevronRightIcon className="w-4 h-4 ml-2 inline-block" />
                 </Link>
                 <Link
                   className="inline-flex h-9 items-center justify-start rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
-                  href="https://cv.nikhilsaxena.me/"
+                  href="https://linkedin.com/in/saxenanickk"
                 >
-                  CV 📄
+                  LinkedIn ⚡️
+                  <ChevronRightIcon className="w-4 h-4 ml-2 inline-block" />
+                </Link>
+                <Link
+                  className="inline-flex h-9 items-center justify-start rounded-md border border-gray-200 bg-white px-4 text-sm font-medium shadow-sm dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
+                  href="https://resume.nikhilsaxena.me/"
+                >
+                  Resume 📄
                   <ChevronRightIcon className="w-4 h-4 ml-2 inline-block" />
                 </Link>
               </div>
